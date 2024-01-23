@@ -1,2 +1,9 @@
 # PiZeroPigpiodSCD30Eclipse
-I2C comms.  Pi Zero to SCD30.  Pigpio library
+
+SCD30 sensor connected to PiZero via I2C.  Uses Eclipse and SysProgs compiler from gnutoolchains.com
+
+Utilises the pigpio library in daemon mode.
+
+pigpiod must be ran on target before debugging:
+
+sudo pigpiod
